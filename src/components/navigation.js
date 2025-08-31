@@ -27,6 +27,14 @@ export default function Navigation() {
           >
             Blogs
           </Button>
+
+          <Button
+            component={Link}
+            href="/users"
+            color={pathname === "/users" ? "secondary" : "inherit"}
+          >
+            Users
+          </Button>
         </Box>
       </Toolbar>
     </AppBar>
