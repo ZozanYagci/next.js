@@ -16,14 +16,14 @@ export default function Navigation() {
           <Button
             component={Link}
             href="/"
-            color={pathname === "/" ? "warning" : "inherit"}
+            color={pathname === "/" ? "secondary" : "inherit"}
           >
             Home
           </Button>
           <Button
             component={Link}
             href="/blogs"
-            color={pathname === "/blogs" ? "warning" : "inherit"}
+            color={pathname === "/blogs" ? "secondary" : "inherit"}
           >
             Blogs
           </Button>
